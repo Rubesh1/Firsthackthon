@@ -1,6 +1,6 @@
 document.getElementById("getData").addEventListener("click", getdata)
 function getdata (){
-    fetch("http://makeup-api.herokuapp.com/api/v1/products.json")
+    fetch("https://makeup-api.herokuapp.com/api/v1/products.json")
         .then(res =>{
             console.log(res);
             return res.json();
